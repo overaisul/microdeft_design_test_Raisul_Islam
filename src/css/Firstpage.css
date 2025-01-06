@@ -65,3 +65,30 @@ a {
   color: white;
   padding: 20px;
 }
+
+.second-text {
+  text-align: center;
+  margin-top: 20px;
+}
+h1 {
+  font-size: 3rem;
+}
+span {
+  color: #0872b9;
+}
+.card-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 5rem;
+}
+.card {
+  height: auto;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  box-shadow: 2px 2px 3px 4px;
+}

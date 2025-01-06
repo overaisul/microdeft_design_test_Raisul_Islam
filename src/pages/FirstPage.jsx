@@ -3,6 +3,8 @@ import Microdeft from "../assets/images/microdeft-logo.png";
 import HeroSection from "../assets/images/Group.png";
 import Facebook from "../assets/images/facebook.png";
 import Twitter from "../assets/images/twitter.png";
+import Card from "../component/card";
+import CardImage from "../assets/images/cmdfile.png";
 function FirstPage() {
   return (
     <>
@@ -73,6 +75,49 @@ function FirstPage() {
           <div>
             <h2>25k+</h2>
             <p>Happy Clients</p>
+          </div>
+        </div>
+        <div className="second-page">
+          <div className="second-text">
+            <h1>
+              Our <span>Expertise</span>
+            </h1>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste,
+              dolores.
+            </p>
+          </div>
+          <div className="card-container">
+            <Card
+              description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, obcaecati?"
+              title="CMD BASED WEBSITE"
+              imageType={CardImage}
+            />
+            <Card
+              description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, obcaecati?"
+              title="CMD BASED WEBSITE"
+              imageType={CardImage}
+            />
+            <Card
+              description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, obcaecati?"
+              title="CMD BASED WEBSITE"
+              imageType={CardImage}
+            />
+            <Card
+              description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, obcaecati?"
+              title="CMD BASED WEBSITE"
+              imageType={CardImage}
+            />
+            <Card
+              description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, obcaecati?"
+              title="CMD BASED WEBSITE"
+              imageType={CardImage}
+            />
+            <Card
+              description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, obcaecati?"
+              title="CMD BASED WEBSITE"
+              imageType={CardImage}
+            />
           </div>
         </div>
       </div>
